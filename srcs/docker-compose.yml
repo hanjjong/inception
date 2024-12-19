@@ -64,12 +64,12 @@ volumes:
   wordpressDB:
     driver_opts:
       type: none
-      device: /Users/jongmin/data/wordpressDB
+      device: /home/jonhan/data/wordpressDB
       o: bind
   mariadbDB:
     driver_opts:
       type: none
-      device: /Users/jongmin/data/mariadb
+      device: /home/jonhan/data/mariadb
       o: bind
 
 networks:
