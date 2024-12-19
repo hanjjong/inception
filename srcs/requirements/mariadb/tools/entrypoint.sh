@@ -27,6 +27,6 @@ fi
 # fi
 
 
-chmod -R 700 /var/lib/mysql
+chmod -R 755 /var/lib/mysql
 
 exec "$@"

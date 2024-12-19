@@ -12,7 +12,7 @@ clean :
 	$(CMD) -f $(SRC) down --rmi "all" --volumes
 
 fclean : clean
-	rm -rf $(VOLUMEPATH)
+	sudo rm -rf $(VOLUMEPATH)
 
 re : fclean all
 
