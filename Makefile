@@ -1,4 +1,4 @@
-CMD = docker compose
+CMD = docker-compose
 SRC = ./srcs/docker-compose.yml
 
 export VOLUMEPATH="/home/jonhan/data"
