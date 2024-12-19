@@ -1,7 +1,7 @@
 CMD = docker compose
 SRC = ./srcs/docker-compose.yml
 
-export VOLUMEPATH="/Users/jongmin/data"
+export VOLUMEPATH="/home/jonhan/data"
 
 all :
 	mkdir -p $(VOLUMEPATH)/wordpressDB
