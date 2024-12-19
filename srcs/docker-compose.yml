@@ -69,7 +69,7 @@ volumes:
   mariaDB:
     driver_opts:
       type: none
-      device: /home/jonhan/data/mariadb
+      device: /home/jonhan/data/mariaDB
       o: bind
 
 networks:
