@@ -22,7 +22,7 @@ services:
     networks:
       - jonhan-network
     volumes:
-      - mariadbDB:/var/lib/mysql
+      - mariaDB:/var/lib/mysql
     restart: always
     init: true
   nginx:
