@@ -12,7 +12,7 @@ clean :
 	$(CMD) -f $(SRC) down --rmi "all" --volumes
 
 fclean : clean
-	sudo docker image prune -a
+	sudo docker image prune -a -f
 	sudo rm -rf $(VOLUMEPATH)
 
 re : fclean all
